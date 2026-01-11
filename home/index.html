@@ -6,6 +6,7 @@
 <title>WEBPROG SF 241 Introduction</title>
 <link rel="stylesheet" href="css/style.css?version=0.1">
 <link rel="stylesheet" href="css/rwd.css">
+<link rel="stylesheet" href="css/images.css">
 </head>
 <body>
 <header class="hero">
@@ -59,5 +60,20 @@
 <img src="https://thirdimpactanime.com/wp-content/uploads/2018/04/wotakoi.png" alt="Fav Anime" class="gallery-img">
 </section>
 </div>
+<div id="app">
+  {{ message }}
+</div>
+
+<div id="app2">
+
+  <div>
+    <img v-for="x in manyFoods" v-bind:src="x">
+  </div>
+
+</div>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="js/vue.js"></script>
+<script src="js/images.js"></script>
 </body>
 </html>
