@@ -1,41 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My first Vue page</title>
-  <link rel="stylesheet" href="css/style.css?version=0.1">
-  <style>
-    #app {
-      display: inline-block;
-      padding: 10px;
-      font-size: x-large;
-      background-color: lightgreen;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WEBPROG SF 241 Introduction</title>
+<link rel="stylesheet" href="css/style.css?version=0.1">
+<link rel="stylesheet" href="css/rwd.css">
 </head>
 <body>
+<header class="hero">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWejGFY4Kdx4Kh9qJumGdCAWoTU14NtUwtsQ&s" alt="COTE" class="profile-img">
+<h1>Personal Profile Web Page</h1>
+</header>
 
-<h1>Vue Example</h1>
 
-<p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
+<div class="container">
+<section class="about">
+<h2>About Me</h2>
+<p>Wassup y'all. I'm Kurt/NBAcraft, an aspiring Network Admin, Cybersecurity Analyst, and Cloud Security Analyst.</p>
+</section>
 
-<div id="app">
-  {{ message }}
+
+<section class="course">
+<h2>Course</h2>
+<p>Computer Science with specialization in Cybersecurity and Forensics</p>
+</section>
+
+
+<section class="experience">
+<h2>IT Experience</h2>
+<ul>
+<li>Fundamental skills in Cisco Packet Tracer</li>
+<li>Fundamental skills in Programming (Java, Python)</li>
+<li>Fundamental skills in Linux CLI commands</li>
+<li>Fundamental skills in SQL Workbench</li>
+</ul>
+</section>
+
+
+<section class="hobbies">
+<h2>Hobbies & Interests</h2>
+<ul>
+<li>Playing video games</li>
+<li>Listening to RnB/chill music</li>
+<li>Watching anime/Kdramas/Cdramas/JDramas</li>
+</ul>
+</section>
+
+
+<section class="goals">
+<h2>Goals In Life / Dream</h2>
+<p>A life that's comfortable, not stressful, and preferably not broke.</p>
+</section>
+
+
+<section class="gallery">
+<h2>Picture Gallery</h2>
+<img src="https://thirdimpactanime.com/wp-content/uploads/2018/04/wotakoi.png" alt="Fav Anime" class="gallery-img">
+</section>
 </div>
-
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-<script src="js/vue.js"></script>
-<script>
-  const app = Vue.createApp({
-   data() {
-    return {
-     message: "Wassup, Kurt here!"
-    }
-   }
-  })
-  
-  app.mount('#app')
-
-</script>
-
 </body>
 </html>
