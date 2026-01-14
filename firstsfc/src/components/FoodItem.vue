@@ -9,7 +9,7 @@
 export default {
   data() {
     return {
-      name: 'Fried Rice, Noodles',
+      name: 'Fried Rice, and Noodles',
       message: 'When I am too lazy to cook, I prefer to cook Fried Rice and Noodles!'
     }
   }
