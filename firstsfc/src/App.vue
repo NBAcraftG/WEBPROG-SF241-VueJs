@@ -1,4 +1,6 @@
 <template>
+  <h1>Profile Webpage</h1>
+  <Pfp/>
   <h1>Food</h1>
   <food-item/>
   <h1>Fun Fact</h1>
