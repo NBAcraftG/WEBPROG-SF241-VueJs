@@ -1,5 +1,5 @@
 <template>
-  <div class= "food">
+  <div class = "anime">
     <h2>{{ name }}</h2>
     <p>{{ message }}</p>
   </div>
@@ -9,18 +9,18 @@
 export default {
   data() {
     return {
-      name: 'Fried Rice, and Noodles',
-      message: 'When I am too lazy to cook, I prefer to cook Fried Rice and Noodles!'
+      name: 'Your Name and Weathering with You',
+      message: 'These are the first two animes that I have watched!'
     }
   }
 };
 </script>
  
 <style>
-.food {
+.anime{
     border: dashed black 1px;
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    background-color: lightgreen;
+    background-color: lightblue;
   }</style>
