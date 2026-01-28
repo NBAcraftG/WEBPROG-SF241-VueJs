@@ -4,7 +4,9 @@
   <h1>Food</h1>
   <food-item/>
   <h1>Fun Fact</h1>
-  <anime/>  
+  <anime/>
+  <comment-form/>
+  <comment/>  
 </template>
 
 <script></script>
